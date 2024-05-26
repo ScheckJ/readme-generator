@@ -32,6 +32,11 @@ const questions = [
     {
         type: 'input',
         message:'Please provide your github username',
+        name: 'name',
+      },
+    {
+        type: 'input',
+        message:'Please provide your github username',
         name: 'creator',
       },
     {
@@ -48,7 +53,7 @@ const questions = [
     {
         type: "input",
         message: 'Test instructions?',
-        name: "text",
+        name: "test",
       }
     ]
 
@@ -64,6 +69,7 @@ function init() {
 inquirer.prompt(questions)
 .then(function (responses) {
 console.log(responses)
+writeToFile('README.md', generateMarkdown(responses))
 })
 }
 
