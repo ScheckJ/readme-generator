@@ -1,6 +1,6 @@
-# p
-by p
-![Github license](gttps://img.shields.io/badge/license-Apache 2.0-blue.svg)
+# Readme Generator
+by ScheckJ
+![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Table of Contents
 
@@ -17,19 +17,19 @@ by p
 *[Testing](#testing)
 [License](#license)
 ## Description
-o
+This project required us to create a backend app that can create readme files. This application uses the inquirer package in order to create prompts that serve as a readme template
 ## Installation
-p
+npm i inquirer@8.2.4, git clone this repository
 ## Usage
-p
+Here is walkthrough video to demonstrate usage https://drive.google.com/file/d/1A3VjIU5TOOTQIITiyrtFmUvyuOPTCvOl/view?usp=sharing
 ## Contact-Me
-* Name - p
-* Email - p
-* Github - p
+* Name - ScheckJ
+* Email - scheckjah@yahoo.com
+* Github - Scheck
 ## Contributions
-po
+I used stack overflow for the badge rendering functions because I thought the code was more efficient than what I originally had
 ## Testing
-p
+n/a
 ## License 
     
-    This project is licensed under Apache 2.0
+    This project is licensed under MIT
